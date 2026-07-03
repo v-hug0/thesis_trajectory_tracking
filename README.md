@@ -20,8 +20,8 @@ The controller is validated in simulation for two reference trajectories — a s
 
 $$
 \begin{cases}
-\dot{e}_1 = \omega\, e_2 + v_r\cos e_3 - v_x\\[2pt]
-\dot{e}_2 = -\omega\, e_1 + v_r\sin e_3\\[2pt]
+\dot{e}_1 = \omega\, e_2 + v_r\cos e_3 - v_x\\
+\dot{e}_2 = -\omega\, e_1 + v_r\sin e_3\\
 \dot{e}_3 = \omega_r - \omega
 \end{cases}
 \qquad u = (v_x,\,\omega)^\top .
