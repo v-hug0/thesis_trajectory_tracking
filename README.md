@@ -42,7 +42,7 @@ $$
 $$
 \Phi(u_i)=
 \begin{cases}
-\operatorname{sign}(u_i), & |u_i|>1\\
+\mathrm{sign}(u_i), & |u_i|>1\\
 u_i, & |u_i|\le 1
 \end{cases}
 $$
@@ -52,7 +52,7 @@ is represented, in the region $\mathcal{L}(H(\tilde e)) = \{\,\tilde e : |h_j(\t
 **5. SOS synthesis (Theorem, after Ichihara 2007).** With Lyapunov candidate $V(\tilde e)=Z(\tilde e)^\top Q^{-1}Z(\tilde e)$, the search for $Q,\,K(\tilde e),\,T(\tilde e)$ (with $F=KQ^{-1}$, $H=TQ^{-1}$) is posed as a single SOS/SDP program with three families of matrix constraints:
 
 $$
-\mathcal{F}_1^{i}(\tilde e,\theta) - \varepsilon I = S_1^{i}(\tilde e),\qquad \forall\,\theta\in\operatorname{vert}\Omega
+\mathcal{F}_1^{i}(\tilde e,\theta) - \varepsilon I = S_1^{i}(\tilde e),\qquad \forall\,\theta\in\mathrm{vert}\Omega
 $$
 
 $$
@@ -65,7 +65,7 @@ $$
 
 which certify, respectively, $\dot V < 0$ at every vertex of the saturation polytope, the inclusion $\mathcal{E}(Q^{-1})\subseteq \mathcal{L}(H(\tilde e))$ (via Schur complement), and the inclusion $\mathcal{E}(Q^{-1})\subseteq\mathcal{X}$ — subject to $Q\succ 0$ and all multipliers being sums of squares. Feasibility certifies that $\mathcal{E}(Q^{-1})=\{\tilde e: V(\tilde e)\le 1\}$ is **positively invariant** and that the closed loop is asymptotically stable at $\tilde e = 0$.
 
-**6. Optimization criterion.** $\operatorname{tr}(Q)$ is maximized, which enlarges $\mathcal{E}(Q^{-1})$. In both trajectories studied here, this pushes the constraint $S_{\mathcal X}\preceq Q^{-1}$ to equality, so the invariant ellipsoid ends up coinciding with the chosen analysis region $\mathcal X$.
+**6. Optimization criterion.** $\mathrm{tr}(Q)$ is maximized, which enlarges $\mathcal{E}(Q^{-1})$. In both trajectories studied here, this pushes the constraint $S_{\mathcal X}\preceq Q^{-1}$ to equality, so the invariant ellipsoid ends up coinciding with the chosen analysis region $\mathcal X$.
 
 ### Worked example: straight-line trajectory
 
