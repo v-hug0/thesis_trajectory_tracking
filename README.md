@@ -1,4 +1,4 @@
-# Trajectory Tracking Control of a Saturated Differential-Drive Mobile Robot via Sum of Squares Programming
+# Trajectory Tracking Control of a Input-Saturated Differential-Drive Mobile Robot via Sum of Squares Programming
 
 Undergraduate thesis (TCC) — Electrical Engineering, Universidade Federal do Ceará (UFC), 2026.
 
@@ -67,7 +67,7 @@ which certify, respectively, $\dot V < 0$ at every vertex of the saturation poly
 
 **6. Optimization criterion.** $\mathrm{tr}(Q)$ is maximized, which enlarges $\mathcal{E}(Q^{-1})$. In both trajectories studied here, this pushes the constraint $S_{\mathcal X}\preceq Q^{-1}$ to equality, so the invariant ellipsoid ends up coinciding with the chosen analysis region $\mathcal X$.
 
-### Worked example: straight-line trajectory
+### Example: straight-line trajectory
 
 For $v_r=1.8$ m/s, $\omega_r=0$, $S_{\mathcal X}=13I$, $u_{\max}=(2.5,\,2.5)$, solving the SDP (14.6 s with MOSEK) yields the diagonal Lyapunov matrix
 
